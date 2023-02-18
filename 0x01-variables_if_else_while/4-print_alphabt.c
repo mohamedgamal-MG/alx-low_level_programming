@@ -3,17 +3,17 @@
 /**
  * main - Entry point
  * Description: prints lowercase alphabets
- * Return: Always 0 (success)
+ * Return: 0
  */
 int main(void)
 {
-	int ch;
+	int a;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		if (ch != 'e' && ch != 'q')
+		if (a != 'e' && a != 'q')
 		{
-			putchar(ch);
+			putchar(a);
 		}
 		else
 		{
