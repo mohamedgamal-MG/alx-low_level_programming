@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <holberton.h>
 /**
  * main - The function
  *
@@ -15,7 +16,7 @@ int main(void)
 	{
 		char b = a[i];
 
-		char(b);
+		_putchar(b);
 		i++;
 	}
 	return (0);
