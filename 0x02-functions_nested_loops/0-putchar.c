@@ -1,22 +1,20 @@
-#include <holberton.h>
+#include "main.h"
 /**
- * main - The function
- *
- * Description: print the "_putchar\n"
- *
+ * main - Entry point
+ * Description: prints '_putchar \n'
  * Return: 0
  */
 int main(void)
 {
-	char a[] = "_putchar\n";
-	int i = 0;
+char str[] = "_putchar\n";
+int i = 0;
 
-	while (a[i] != '\0')
+while (str[i] != '\0')
 	{
-		char b = a[i];
+	char c = str[i];
 
-		_putchar(b);
-		i++;
+	_putchar(c);
+	i++;
 	}
-	return (0);
+return (0);
 }
