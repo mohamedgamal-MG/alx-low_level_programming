@@ -10,14 +10,14 @@ int _isalpha(int c)
 	int i = 'a';
 	int x = 'A';
 
-	for (i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (c == i)
 		{
 			return (1);
 		}
 	}
-	for (x <= 'Z'; x++)
+	for (x = 'A'; x <= 'Z'; x++)
 	{
 		if (c == x)
 		{
